@@ -6,7 +6,9 @@ gem 'rspec-rails'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'jbuilder', '~> 2.0'
+gem 'database_cleaner'
 gem 'sdoc', '~> 0.4.0', group: :doc
+gem 'byebug'
 
 group :development, :test do
   gem 'capybara'
